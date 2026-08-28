@@ -1,18 +1,25 @@
 {
+  "id": "/",
   "name": "The Next One",
   "short_name": "The Next One",
-  "description": "Manager de football multijoueur : huit championnats, coupes nationales et européennes.",
+  "description": "Manager de football multijoueur : dirige un club parmi huit championnats, dispute les coupes nationales et européennes, et affronte les autres managers.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
   "orientation": "portrait",
   "background_color": "#06183A",
-  "theme_color": "#0A2C63",
+  "theme_color": "#061C42",
   "lang": "fr",
+  "dir": "ltr",
   "categories": [
     "games",
     "sports"
   ],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "logo-192.png",
@@ -27,10 +34,32 @@
       "purpose": "any"
     },
     {
-      "src": "logo-512.png",
+      "src": "logo-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "capture-1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Le calendrier et le prochain match"
+    },
+    {
+      "src": "capture-2.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "La composition de l'équipe"
     }
   ]
 }
